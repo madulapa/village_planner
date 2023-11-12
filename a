@@ -1,0 +1,218 @@
+[33mcommit f6b33c4290d82d31a2388461aab7ad0d509aa243[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 2f4f6d5 4090510
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 15:08:29 2022 -0800
+
+    Merge branch 'master' of github.com:niaignacio/csci310-project2
+
+[33mcommit 409051061a08aa46bddb3fd267b3780a170c3c49[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Sun Nov 6 15:08:15 2022 -0800
+
+    store constructor fixed
+
+[33mcommit 2f4f6d5f3a237d6773c229ea1675421125cf0652[m
+Merge: 9078bda 6795e1b
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 15:01:53 2022 -0800
+
+    Merge branch 'master' of github.com:niaignacio/csci310-project2
+
+[33mcommit 9078bda411624e6cfe23bccf18af92c98e07322c[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 15:01:48 2022 -0800
+
+    minor changes to reminder_card_design.xml
+
+[33mcommit 6795e1b92313849ad7e08ae2dc18e2945868805f[m
+Merge: 849288e b500f8e
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Sun Nov 6 14:47:07 2022 -0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       app/src/main/java/com/example/project2/HomeActivity.java
+
+[33mcommit 849288e0ca948496e9c1c79c5c9f3dadeb43fe14[m
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Sun Nov 6 14:46:05 2022 -0800
+
+    user coordinates accessible in HomeActivity
+
+[33mcommit b500f8eacc9de76c6baf845df8079b71d3349226[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 13:49:18 2022 -0800
+
+    fixed reminders activity for createReminder()
+
+[33mcommit c77cc135308233583dc5b6abef4631487501b7a0[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 13:41:02 2022 -0800
+
+    added the reminders information on HomeActivity.java
+
+[33mcommit eb98ae25e0ee7918138f042ff7549e2a93d96904[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 13:36:49 2022 -0800
+
+    fixed store_recycler on home page ui
+
+[33mcommit d9bf2e99118b604bc7d83e0dec858f37c2e91c4f[m
+Merge: 531b292 0e21703
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 13:23:23 2022 -0800
+
+    fixed merge conflicts
+
+[33mcommit 531b2921b0a481e9cbb06928b91ee344b539995c[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 13:09:53 2022 -0800
+
+    changed HomeActivity for Feature1
+
+[33mcommit 0e21703e9545b775be36717dd7194423218c3a34[m
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Sun Nov 6 13:09:49 2022 -0800
+
+    home page stores listed
+
+[33mcommit caab0aa4295b90fa46d0e991f57048e21aec8f35[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 02:10:10 2022 -0800
+
+    put login page back in (removed in previous commit for dev purposes)
+
+[33mcommit fdd74945a5e4fa37cb884300ae06cf4f7350cd92[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Sun Nov 6 02:08:23 2022 -0800
+
+    added activity_store_details.xml and outlines adding reminders process
+
+[33mcommit 1bd4dfc0a270c40c1b29d9b099ff40dd8bc5ca24[m
+Author: mg-cho <mgcho1186@gmail.com>
+Date:   Sat Nov 5 12:01:34 2022 -0700
+
+    login implemented with janky error region
+
+[33mcommit 2dce371afde446c9a7ffc5dbf281e6b5dc1d2947[m
+Merge: 4bfc709 fb75271
+Author: mg-cho <mgcho1186@gmail.com>
+Date:   Sat Nov 5 10:35:46 2022 -0700
+
+    Merge branch 'master' of https://github.com/niaignacio/csci310-project2
+
+[33mcommit 4bfc7093f085f5829e43282346c0072849e158e7[m
+Author: mg-cho <mgcho1186@gmail.com>
+Date:   Sat Nov 5 10:34:02 2022 -0700
+
+    minor changes to register
+
+[33mcommit fb752710f758ae352d97245afad9efef04fc7b6a[m
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Sat Nov 5 10:32:03 2022 -0700
+
+    compiling after Laya's push
+
+[33mcommit 8b9254cfeaa8da89bcdf9cfc0601a497d5cb397f[m
+Merge: e325f44 b713e2f
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Sat Nov 5 10:31:31 2022 -0700
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       .idea/misc.xml
+
+[33mcommit e325f441554fe5cd3eb0989629b340cc6b2e7b0b[m
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Sat Nov 5 10:28:04 2022 -0700
+
+    compiling
+
+[33mcommit b713e2fd96ea28a98cc5194e39eaa3e9a497bbed[m
+Author: mg-cho <mgcho1186@gmail.com>
+Date:   Sat Nov 5 00:09:25 2022 -0700
+
+    signup implemented - found firebase network bug with emulator that required an emulator version downgrade (to 31.2.9)
+
+[33mcommit addff10cd169fda456faa74c8467d6f12452464a[m
+Merge: 06cb410 0921b3a
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Fri Nov 4 08:15:56 2022 -0700
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 06cb410f9a45c0388702fbef686a8f52436baea6[m
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Fri Nov 4 08:15:43 2022 -0700
+
+    working on store activity, not finished
+
+[33mcommit 0921b3a4193c4e743046ae18fd86f9414983715b[m
+Merge: d4cde14 7045ba7
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Thu Nov 3 17:28:33 2022 -0700
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       .idea/misc.xml
+
+[33mcommit d4cde14dd4844cc2df5cb2b4482044ade89e4b33[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Thu Nov 3 16:39:32 2022 -0700
+
+    implemented Google Map (requires API 33)
+
+[33mcommit 38c884f73561aad1b16448ccf9984b69d01c1fba[m
+Merge: 015ab08 7045ba7
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Wed Nov 2 11:18:51 2022 -0700
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       .idea/misc.xml
+
+[33mcommit 015ab080f0e2976f188b7a3daf1073000e4d66b2[m
+Author: Laya Madulapally <madulapa@usc.edu>
+Date:   Wed Nov 2 11:18:29 2022 -0700
+
+    working on classes, not finished
+
+[33mcommit 7045ba7be42cbda026a0e148e1d904fe95d3154a[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Wed Nov 2 01:31:00 2022 -0700
+
+    added navigation bar
+
+[33mcommit 211ce841d1ac3e224fdf2ebbfaa60300924ad23b[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Wed Nov 2 01:22:52 2022 -0700
+
+    added navigation bar
+
+[33mcommit bbf195275f77e546a739afe6cf7991aaa1079fdf[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Mon Oct 31 19:11:45 2022 -0700
+
+    added UI to Login and Signup activity
+
+[33mcommit 6396d4045a91ed85a641abf9209a92e060101f19[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Tue Oct 18 19:45:27 2022 -0700
+
+    added Main, Home, and Reminder Activities
+
+[33mcommit 1623949fc17abdf4a3cb03132a05fafce4ae2176[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Mon Oct 17 11:10:51 2022 -0700
+
+    first commit
+
+[33mcommit 28f09bc54c68b5495c7f27763df4c43996a2738b[m
+Author: Nia Ignacio <nignacio@usc.edu>
+Date:   Mon Oct 17 11:10:38 2022 -0700
+
+    first commit

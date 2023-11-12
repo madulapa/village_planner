@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/body_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/google_map"
+        app:layout_constraintVertical_bias="0"
+        android:background="@color/cardinal_red"
+        android:text="USC Village Planner"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:padding="12dp"
+        android:elevation="8dp"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintWidth_percent="0.85"
+        android:id="@+id/google_map"
+        app:layout_constraintBottom_toTopOf="@+id/store_recycler"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"></androidx.fragment.app.FragmentContainerView>
+
+    <TextView
+        android:id="@+id/stores_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.4"
+        android:text="Stores"
+        app:layout_constraintTop_toBottomOf="@+id/google_map"
+        app:layout_constraintBottom_toTopOf="@id/store_recycler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/reminders_title" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/store_recycler"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintTop_toBottomOf="@+id/google_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/reminders_recycler"
+        app:layout_constraintVertical_bias="0"
+        />
+    <TextView
+        android:id="@+id/reminders_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.4"
+        android:clickable="true"
+        android:onClick="toReminderActivity"
+        android:text="Reminders"
+        app:layout_constraintTop_toBottomOf="@+id/google_map"
+        app:layout_constraintBottom_toTopOf="@id/reminders_recycler"
+        app:layout_constraintStart_toEndOf="@id/stores_title"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintWidth_percent="0.4"
+        android:id="@+id/reminders_recycler"
+        app:layout_constraintTop_toBottomOf="@id/google_map"
+        app:layout_constraintStart_toEndOf="@+id/store_recycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_corner"
+        android:elevation="20dp"
+        android:minHeight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <ImageButton
+            android:id="@+id/nav_home"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:onClick="toHomeActivity"
+            android:src="@drawable/ic_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_reminders"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/nav_reminders"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:onClick="toReminderActivity"
+            android:src="@drawable/ic_reminder"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_logout"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintStart_toEndOf="@+id/nav_home"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/nav_logout"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:onClick="handleLogout"
+            android:src="@drawable/ic_logout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintStart_toEndOf="@+id/nav_reminders"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
